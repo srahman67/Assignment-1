@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="bg-orange-400">
+      <section class="flex justify-around">
+        <div>
+          <img class="w-20 h-20 m-20" src="images/me.svg" alt="" />
+        </div>
+        <div class="m-20 text-2xl">
+          <a class="m-10" href="index.html">About</a>
+          <a class="m-10" href="work.html">Work</a>
+          <a class="m-10" href="note.html">Notes</a>
+        </div>
+      </section>
+
+      <section class="uppercase">
+        <h1 class="flex justify-around text-7xl mb-5">Note</h1>
+      </section>
+      <section class="flex justify-around mt-10">
+        <img src="images/land (1).svg" alt="" />
+      </section>
+    </header>
+
+    <main>
+      <section>
+        <h1 class="flex justify-center text-6xl text-orange-400 mt-10">
+          Out with the old...
+        </h1>
+        <h2 class="flex justify-center text-3xl text-orange-400 mt-10">
+          Life, design, work
+        </h2>
+        <div class="flex justify-center mt-12">
+          <img class="" src="images/1310-out-with-old.jpg" alt="" />
+        </div>
+
+        <div>
+          <h1 class="flex justify-center text-3xl mt-10">
+            Designing a new portfolio is easy. Committing <br />
+            your time and following through with that original <br />
+            concept, that's the tricky part.
+          </h1>
+        </div>
+      </section>
+
+      <section class="mt-10">
+        <h1 class="flex justify-center text-6xl font-semibold text-orange-400">
+          I can help.
+        </h1>
+        <br />
+        <h2 class="flex justify-center mt-10 text-3xl text-orange-400">
+          I’m currently available for freelance work.
+        </h2>
+        <p class="flex justify-around mt-10 text-2xl">
+          If you have a project that you want to get started, think you need my
+          help <br />
+        </p>
+        <p class="flex justify-around text-2xl">
+          with something or just fancy saying hey, then get in touch.
+        </p>
+        <div class="flex justify-center mt-10">
+          <button
+            class="uppercase bg-orange-400 py-4 px-7 font-semibold rounded-xl text-white"
+          >
+            <div class="flex justify-between">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+              <p>Messege</p>
+            </div>
+          </button>
+        </div>
+      </section>
+
+      <footer class="mt-36 bg-orange-200">
+        <div class="flex justify-center">
+          <div
+            class="flex justify-around w-96 text-2xl text-orange-500 pt-12 pb-12"
+          >
+            <a href="#">dribble</a>
+            <a href="#">twitter</a>
+            <a href="#">hire me</a>
+          </div>
+        </div>
+        <div class="flex justify-center text-orange-500 text-xl pb-10">
+          <p>
+            © 2018 <a href="#"><u>Sean Halpin.</u></a> All rights reserved.
+          </p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
